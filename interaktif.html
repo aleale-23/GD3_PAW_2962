@@ -19,7 +19,14 @@
         }
         console.log(sapa("Alegra Bone Fasia Samosir"));
     </script> 
-    <p>Selamat datang di halaman interaktif!</p>
+    <p id="teks">Teks ini bisa berubah!</p>
+    <button onclick="ubahBiru()">Ubah ke Biru</button>
+    <script>
+        function ubahBiru() {
+            const teks = document.getElementById("teks");
+            teks.style.color = "blue";
+        }
+    </script>
 </body>
 
 </html>
