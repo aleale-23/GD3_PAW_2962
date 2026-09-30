@@ -27,6 +27,19 @@
             teks.style.color = "blue";
         }
     </script>
+    <label id="inputNama">Masukkan Nama:</label>
+    <input type="text" id="inputNama">
+    <button onclick="tampilkanNama()">Tampilkan Nama</button>
+    <script>
+        function tampilkanNama() {
+            const input = document.getElementById("inputNama").value;
+            if(input.trim() === "") {
+                alert("Nama tidak boleh kosong!");
+            } else {
+                alert("Halo, " + input + "!");
+            }
+        }
+    </script>
 </body>
 
 </html>
