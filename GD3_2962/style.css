@@ -48,3 +48,52 @@ p.bio {
     }
 }
 
+
+.tombol {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #6d4dcb;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.tombol:hover {
+    background-color: #5a3dbb;
+    transform: scale(1.05);
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 80px auto 30px auto;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+    width: 80%;
+    margin: 0 auto 20px auto;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.radio-group {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.radio-group label {
+    margin-bottom: 0;
+    font-weight: normal;
+}
