@@ -40,6 +40,18 @@
             }
         }
     </script>
+
+    <label for="angka">Masukkan angka:</label>
+    <input type="number" id="angka">
+
+    <button onclick="hitungKuadrat()">Hitung Kuadrat</button>
+    <script>
+        function hitungKuadrat() {
+            const angka = document.getElementById("angka").value;
+            const kuadrat = angka * angka;
+            alert("Hasil kuadrat: " + kuadrat);
+        }
+    </script> 
 </body>
 
 </html>
